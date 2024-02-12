@@ -1,0 +1,11 @@
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\bin\Debug\AdoNet2.exe.config
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\bin\Debug\AdoNet2.exe
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\bin\Debug\AdoNet2.pdb
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.csproj.AssemblyReference.cache
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.Properties.Resources.resources
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.csproj.GenerateResource.cache
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.csproj.CoreCompileInputs.cache
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.exe
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.pdb
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.FormRecords.resources
+C:\Users\18zey\OneDrive\Masaüstü\Ado.net\AdoNet2\AdoNet2\obj\Debug\AdoNet2.Form2.resources

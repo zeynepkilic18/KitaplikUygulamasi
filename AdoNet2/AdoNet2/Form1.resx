@@ -1,0 +1,1725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 467</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1182, 262</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelBookName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 12</value>
+  </data>
+  <data name="labelBookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="labelBookName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelBookName.Text" xml:space="preserve">
+    <value>Kitap Ad:</value>
+  </data>
+  <data name="&gt;&gt;labelBookName.Name" xml:space="preserve">
+    <value>labelBookName</value>
+  </data>
+  <data name="&gt;&gt;labelBookName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookName.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelBookName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelBookAuthor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 39</value>
+  </data>
+  <data name="labelBookAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="labelBookAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelBookAuthor.Text" xml:space="preserve">
+    <value>Kitap Yazar:</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor.Name" xml:space="preserve">
+    <value>labelBookAuthor</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelBookPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 67</value>
+  </data>
+  <data name="labelBookPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 16</value>
+  </data>
+  <data name="labelBookPage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelBookPage.Text" xml:space="preserve">
+    <value>Kitap Sayfa sayısı:</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage.Name" xml:space="preserve">
+    <value>labelBookPage</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelBookPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 9</value>
+  </data>
+  <data name="labelBookPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="labelBookPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelBookPrice.Text" xml:space="preserve">
+    <value>Kitap Fiyat:</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice.Name" xml:space="preserve">
+    <value>labelBookPrice</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelPublisher.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPublisher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 9</value>
+  </data>
+  <data name="labelPublisher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 16</value>
+  </data>
+  <data name="labelPublisher.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelPublisher.Text" xml:space="preserve">
+    <value>Kitap Yayın Evi:</value>
+  </data>
+  <data name="&gt;&gt;labelPublisher.Name" xml:space="preserve">
+    <value>labelPublisher</value>
+  </data>
+  <data name="&gt;&gt;labelPublisher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPublisher.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelPublisher.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelBookDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 39</value>
+  </data>
+  <data name="labelBookDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="labelBookDate.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelBookDate.Text" xml:space="preserve">
+    <value>Kitap Tarih:</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate.Name" xml:space="preserve">
+    <value>labelBookDate</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="textBoxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 5</value>
+  </data>
+  <data name="textBoxName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.Name" xml:space="preserve">
+    <value>textBoxName</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBoxPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 67</value>
+  </data>
+  <data name="textBoxPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxPage.Name" xml:space="preserve">
+    <value>textBoxPage</value>
+  </data>
+  <data name="&gt;&gt;textBoxPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPage.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;textBoxPage.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="textBoxPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 6</value>
+  </data>
+  <data name="textBoxPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxPrice.Name" xml:space="preserve">
+    <value>textBoxPrice</value>
+  </data>
+  <data name="&gt;&gt;textBoxPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPrice.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;textBoxPrice.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBoxPublisher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>718, 6</value>
+  </data>
+  <data name="textBoxPublisher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxPublisher.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBoxPublisher.Name" xml:space="preserve">
+    <value>textBoxPublisher</value>
+  </data>
+  <data name="&gt;&gt;textBoxPublisher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPublisher.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;textBoxPublisher.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBoxAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 33</value>
+  </data>
+  <data name="textBoxAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxAuthor.Name" xml:space="preserve">
+    <value>textBoxAuthor</value>
+  </data>
+  <data name="&gt;&gt;textBoxAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxAuthor.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;textBoxAuthor.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttonAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 56</value>
+  </data>
+  <data name="buttonAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 38</value>
+  </data>
+  <data name="buttonAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonAdd.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.Name" xml:space="preserve">
+    <value>buttonAdd</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 39</value>
+  </data>
+  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
+    <value>dateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 15</value>
+  </data>
+  <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 45</value>
+  </data>
+  <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
+    <value>buttonDelete</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
+    <value>panelDelete</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelDelete.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="labelDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="labelDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelDelete.Text" xml:space="preserve">
+    <value>Silinmek istenen kitap ID:</value>
+  </data>
+  <data name="&gt;&gt;labelDelete.Name" xml:space="preserve">
+    <value>labelDelete</value>
+  </data>
+  <data name="&gt;&gt;labelDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDelete.Parent" xml:space="preserve">
+    <value>panelDelete</value>
+  </data>
+  <data name="&gt;&gt;labelDelete.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.Name" xml:space="preserve">
+    <value>labelDelete2</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.Parent" xml:space="preserve">
+    <value>panelDelete</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 141</value>
+  </data>
+  <data name="panelDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1182, 78</value>
+  </data>
+  <data name="panelDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panelDelete.Name" xml:space="preserve">
+    <value>panelDelete</value>
+  </data>
+  <data name="&gt;&gt;panelDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelDelete2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelDelete2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDelete2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 15</value>
+  </data>
+  <data name="labelDelete2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="labelDelete2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.Name" xml:space="preserve">
+    <value>labelDelete2</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.Parent" xml:space="preserve">
+    <value>panelDelete</value>
+  </data>
+  <data name="&gt;&gt;labelDelete2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.Name" xml:space="preserve">
+    <value>labelBookGenre</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.Name" xml:space="preserve">
+    <value>comboBoxBookGenre</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.Name" xml:space="preserve">
+    <value>radioButtonNon</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelStock.Name" xml:space="preserve">
+    <value>labelStock</value>
+  </data>
+  <data name="&gt;&gt;labelStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStock.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelStock.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.Name" xml:space="preserve">
+    <value>radioButtonExist</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="panelAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1182, 123</value>
+  </data>
+  <data name="panelAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panelAdd.Name" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;panelAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelBookGenre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookGenre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>876, 9</value>
+  </data>
+  <data name="labelBookGenre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
+  </data>
+  <data name="labelBookGenre.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelBookGenre.Text" xml:space="preserve">
+    <value>Kitap Türü:</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.Name" xml:space="preserve">
+    <value>labelBookGenre</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxBookGenre.Items" xml:space="preserve">
+    <value>Roman</value>
+  </data>
+  <data name="comboBoxBookGenre.Items1" xml:space="preserve">
+    <value>Hikaye</value>
+  </data>
+  <data name="comboBoxBookGenre.Items2" xml:space="preserve">
+    <value>Şiir</value>
+  </data>
+  <data name="comboBoxBookGenre.Items3" xml:space="preserve">
+    <value>Biyografi</value>
+  </data>
+  <data name="comboBoxBookGenre.Items4" xml:space="preserve">
+    <value>Anı</value>
+  </data>
+  <data name="comboBoxBookGenre.Items5" xml:space="preserve">
+    <value>Felsefe</value>
+  </data>
+  <data name="comboBoxBookGenre.Items6" xml:space="preserve">
+    <value>Psikoloji</value>
+  </data>
+  <data name="comboBoxBookGenre.Items7" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="comboBoxBookGenre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>964, 9</value>
+  </data>
+  <data name="comboBoxBookGenre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 24</value>
+  </data>
+  <data name="comboBoxBookGenre.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.Name" xml:space="preserve">
+    <value>comboBoxBookGenre</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonNon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonNon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 95</value>
+  </data>
+  <data name="radioButtonNon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="radioButtonNon.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButtonNon.Text" xml:space="preserve">
+    <value>Stokta yok</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.Name" xml:space="preserve">
+    <value>radioButtonNon</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelStock.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 44</value>
+  </data>
+  <data name="labelStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="labelStock.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelStock.Text" xml:space="preserve">
+    <value>Stok Durumu:</value>
+  </data>
+  <data name="&gt;&gt;labelStock.Name" xml:space="preserve">
+    <value>labelStock</value>
+  </data>
+  <data name="&gt;&gt;labelStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStock.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;labelStock.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radioButtonExist.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonExist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 69</value>
+  </data>
+  <data name="radioButtonExist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="radioButtonExist.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonExist.Text" xml:space="preserve">
+    <value>Stokta var</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.Name" xml:space="preserve">
+    <value>radioButtonExist</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.Parent" xml:space="preserve">
+    <value>panelAdd</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.Name" xml:space="preserve">
+    <value>comboBoxBookGenre2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.Name" xml:space="preserve">
+    <value>labelBookGenre2</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.Name" xml:space="preserve">
+    <value>radioButtonNon2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.Name" xml:space="preserve">
+    <value>radioButtonExist2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.Name" xml:space="preserve">
+    <value>labelStock2</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_id.Name" xml:space="preserve">
+    <value>label_id</value>
+  </data>
+  <data name="&gt;&gt;label_id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_id.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;label_id.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.Name" xml:space="preserve">
+    <value>labelNo2</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Name" xml:space="preserve">
+    <value>dateTimePicker2</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.Name" xml:space="preserve">
+    <value>textBoxBookPublisher2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.Name" xml:space="preserve">
+    <value>textBoxBookPrice2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.Name" xml:space="preserve">
+    <value>textBoxBookPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.Name" xml:space="preserve">
+    <value>labelBookDate2</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.Name" xml:space="preserve">
+    <value>textBoxBookAuthor2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.Name" xml:space="preserve">
+    <value>textBoxBookName2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.Name" xml:space="preserve">
+    <value>buttonChange</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.Name" xml:space="preserve">
+    <value>labelBookPublisher2</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.Name" xml:space="preserve">
+    <value>labelBookPrice2</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.Name" xml:space="preserve">
+    <value>labelBookPage2</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.Name" xml:space="preserve">
+    <value>labelBookAuthor2</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.Name" xml:space="preserve">
+    <value>labelBookName2</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="panelChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 225</value>
+  </data>
+  <data name="panelChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1182, 141</value>
+  </data>
+  <data name="panelChange.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panelChange.Name" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;panelChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelChange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelChange.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 147</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 147</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 100</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items" xml:space="preserve">
+    <value>Roman</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items1" xml:space="preserve">
+    <value>Hikaye</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items2" xml:space="preserve">
+    <value>Şiir</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items3" xml:space="preserve">
+    <value>Biyografi</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items4" xml:space="preserve">
+    <value>Anı</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items5" xml:space="preserve">
+    <value>Felsefe</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items6" xml:space="preserve">
+    <value>Psikoloji</value>
+  </data>
+  <data name="comboBoxBookGenre2.Items7" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="comboBoxBookGenre2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1003, 3</value>
+  </data>
+  <data name="comboBoxBookGenre2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 24</value>
+  </data>
+  <data name="comboBoxBookGenre2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.Name" xml:space="preserve">
+    <value>comboBoxBookGenre2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;comboBoxBookGenre2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelBookGenre2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookGenre2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelBookGenre2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 7</value>
+  </data>
+  <data name="labelBookGenre2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
+  </data>
+  <data name="labelBookGenre2.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelBookGenre2.Text" xml:space="preserve">
+    <value>Kitap Türü:</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.Name" xml:space="preserve">
+    <value>labelBookGenre2</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookGenre2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radioButtonNon2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonNon2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonNon2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 101</value>
+  </data>
+  <data name="radioButtonNon2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="radioButtonNon2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="radioButtonNon2.Text" xml:space="preserve">
+    <value>Stokta yok</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.Name" xml:space="preserve">
+    <value>radioButtonNon2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNon2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radioButtonExist2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonExist2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonExist2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 75</value>
+  </data>
+  <data name="radioButtonExist2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="radioButtonExist2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="radioButtonExist2.Text" xml:space="preserve">
+    <value>Stokta var</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.Name" xml:space="preserve">
+    <value>radioButtonExist2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;radioButtonExist2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelStock2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStock2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelStock2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 49</value>
+  </data>
+  <data name="labelStock2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="labelStock2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelStock2.Text" xml:space="preserve">
+    <value>Stok Durumu:</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.Name" xml:space="preserve">
+    <value>labelStock2</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelStock2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_id.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 10</value>
+  </data>
+  <data name="label_id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="label_id.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_id.Name" xml:space="preserve">
+    <value>label_id</value>
+  </data>
+  <data name="&gt;&gt;label_id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_id.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;label_id.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelNo2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelNo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="labelNo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 16</value>
+  </data>
+  <data name="labelNo2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelNo2.Text" xml:space="preserve">
+    <value>Güncellenmek istenen kitap ID:</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.Name" xml:space="preserve">
+    <value>labelNo2</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelNo2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 77</value>
+  </data>
+  <data name="dateTimePicker2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="dateTimePicker2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Name" xml:space="preserve">
+    <value>dateTimePicker2</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBoxBookPublisher2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 7</value>
+  </data>
+  <data name="textBoxBookPublisher2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxBookPublisher2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.Name" xml:space="preserve">
+    <value>textBoxBookPublisher2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPublisher2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBoxBookPrice2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 40</value>
+  </data>
+  <data name="textBoxBookPrice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxBookPrice2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.Name" xml:space="preserve">
+    <value>textBoxBookPrice2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPrice2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="textBoxBookPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 7</value>
+  </data>
+  <data name="textBoxBookPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxBookPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.Name" xml:space="preserve">
+    <value>textBoxBookPage2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookPage2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelBookDate2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookDate2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 77</value>
+  </data>
+  <data name="labelBookDate2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="labelBookDate2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelBookDate2.Text" xml:space="preserve">
+    <value>Kitap Tarih:</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.Name" xml:space="preserve">
+    <value>labelBookDate2</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookDate2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="textBoxBookAuthor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 77</value>
+  </data>
+  <data name="textBoxBookAuthor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxBookAuthor2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.Name" xml:space="preserve">
+    <value>textBoxBookAuthor2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookAuthor2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="textBoxBookName2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 43</value>
+  </data>
+  <data name="textBoxBookName2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxBookName2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.Name" xml:space="preserve">
+    <value>textBoxBookName2</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;textBoxBookName2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="buttonChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>865, 62</value>
+  </data>
+  <data name="buttonChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 52</value>
+  </data>
+  <data name="buttonChange.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonChange.Text" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.Name" xml:space="preserve">
+    <value>buttonChange</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;buttonChange.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelBookPublisher2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookPublisher2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 10</value>
+  </data>
+  <data name="labelBookPublisher2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 16</value>
+  </data>
+  <data name="labelBookPublisher2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelBookPublisher2.Text" xml:space="preserve">
+    <value>Kitap Yayın Evi:</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.Name" xml:space="preserve">
+    <value>labelBookPublisher2</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookPublisher2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelBookPrice2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookPrice2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 43</value>
+  </data>
+  <data name="labelBookPrice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="labelBookPrice2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelBookPrice2.Text" xml:space="preserve">
+    <value>Kitap Fiyat:</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.Name" xml:space="preserve">
+    <value>labelBookPrice2</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookPrice2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelBookPage2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 10</value>
+  </data>
+  <data name="labelBookPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 16</value>
+  </data>
+  <data name="labelBookPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelBookPage2.Text" xml:space="preserve">
+    <value>Kitap Sayfa sayısı:</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.Name" xml:space="preserve">
+    <value>labelBookPage2</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookPage2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="labelBookAuthor2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookAuthor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 71</value>
+  </data>
+  <data name="labelBookAuthor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="labelBookAuthor2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelBookAuthor2.Text" xml:space="preserve">
+    <value>Kitap Yazar:</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.Name" xml:space="preserve">
+    <value>labelBookAuthor2</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookAuthor2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="labelBookName2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBookName2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 43</value>
+  </data>
+  <data name="labelBookName2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="labelBookName2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelBookName2.Text" xml:space="preserve">
+    <value>Kitap Ad:</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.Name" xml:space="preserve">
+    <value>labelBookName2</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.Parent" xml:space="preserve">
+    <value>panelChange</value>
+  </data>
+  <data name="&gt;&gt;labelBookName2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 54</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Ürün Listesini Göster</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 372</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 89</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1209, 1055</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Kayıtlar</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormRecords</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
